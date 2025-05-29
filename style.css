@@ -1,0 +1,252 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	border: none;
+	outline: none;
+	scroll-behavior: smooth;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #161616;
+}
+.header{
+	position: sticky;
+	padding: 1rem 6%;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	z-index: 100;
+}
+.header a:hover,
+.header a:active{
+	color: aliceblue;
+	border-bottom: 3px solid #D7C2C2;
+}
+.logo{
+	color: #fff;
+	font-size: 80px;
+	float: left;
+}
+.logo span{
+	text-shadow: 0 0 25px #fff;
+	color: aqua;
+}
+.navbar a{
+	font-size: 25px;
+	color: #EEEEEE;
+	margin-left: 4rem;
+	transition: .3s;
+	margin-top: 50px;
+	position: relative;
+	top: 20px;
+}
+.navbar a:hover{
+	color: #08D9D6;
+}
+#resim{
+	height: 500px;
+	width: 500px;
+	position: relative;
+	top: 20px;
+	left: 100px;
+}
+#icerik{
+	color: white;
+	float: left;
+}
+#icerik #bilgilerim{
+	font-size: 26px;
+	position: absolute;
+	top: 320px;
+	right: 50px;
+}
+#icerik #bilgilerim h1 span{
+	color:aqua;
+}
+#icerik #bilgilerim p span{
+	color: aqua;	
+}
+#icerik #bilgilerim a{
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	color: #BBE1FA;
+	border-radius: 50%;
+	width: 38px;
+	height: 38px;
+	background: transparent;
+	border: .2rem solid aqua;
+	font-size: 30px;
+	margin: 3rem 1.5rem 3rem 0;
+	position: relative;
+	left: 150px;
+	margin-top: 15px;
+}
+#icerik #bilgilerim a:hover{
+	background: aqua;
+	color: beige;
+	box-shadow:  0 0 1rem #BBE1FA;
+}
+#hakkimda{
+	width: 100%;
+	height: 200px;
+	position: relative;
+	top: 200px;
+	float: left;
+}
+#hakkimda h1{
+	text-align: center;
+	color: aqua;
+}
+#hakkimda p{
+	text-align: center;
+}
+.clear{
+	clear: both;
+}
+.proje{
+	background-color: #393E46;
+	text-align: center;
+	float: left;
+	position: relative;
+	top: 400px;
+}
+.proje h2{
+	font-size: 25px;
+	position: relative;
+	top: 20px;
+	margin-bottom: 4rem;
+	color: #08D9D6;
+}
+.proje_icerik{
+	align-items: center;
+}
+.proje_icerik .proje_kutu{
+	position: relative;
+	padding-top: 20px;
+	bottom: 20px;
+	border-radius: 2rem;
+	box-shadow: 0 0 0rem #1f242d;
+	overflow: hidden;
+	float: left;
+}
+.proje_icerik .proje_kutu #sol1 {
+	margin-left: 140px;
+	position: relative;
+	right: 70px;
+}
+.proje_icerik .proje_kutu #orta1{
+	margin-left: 80px;
+	margin-right: 80px;
+}
+.proje_icerik .proje_kutu #sol2{
+	margin-left: 140px;
+	position: relative;
+	right: 70px;
+}
+.proje_icerik .proje_kutu #orta2{
+	margin-left: 80px;
+	margin-right: 80px;
+}
+.proje_icerik img{
+	width: 440px;
+	height: 226px;
+}
+.proje_icerik img:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+.proje_kutu{
+	float: left;
+}
+.proje_icerik .proje_kutu #sol1 h4{
+	position: relative;
+	left: 10px;
+}
+.iletisim {
+	position: relative;
+	top: 250px;
+	float: left;
+	margin-left: 360px;
+}
+.iletisim h2 {
+	margin-bottom: 4rem;
+	position: relative;
+	top: 300px;
+	color: #08D9D6;
+	text-align: center;
+	z-index: -1;
+}
+
+.iletisim form{
+	max-width: 50rem;
+	max-height: 10rem;
+	margin: 1rem auto;
+	text-align: center;
+	margin-bottom: 3rem;
+}
+.iletisim form .kutu1{
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.iletisim form .kutu1 input,
+.iletisim form textarea{
+	width: 50%;
+	padding: 1.5rem;
+	font-size: 1.6rem;
+	color: #08D9D6;
+	background: #393E46;
+	border-radius: .8rem;
+	margin:.7rem 0;
+	height: 50px;
+	position: relative;
+	top: 250px;
+}
+.iletisim .btn{
+	position: relative;
+	margin-top: 250px;
+	margin-left: 250px;
+	margin-right: 250px;
+	width: 120px;
+	height: 50px;
+	background-color: #08D9D6;
+	font-size: 20px;
+	color: white;
+	border-radius: 25px;
+}
+.iletisim .btn:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+	transition: 0.3s ease;
+	color: #1f242d;
+	border-radius: 50px;
+	z-index: 7;
+}
+.iletisim form .kutu1 input{
+	width: 49%;
+}
+.iletisim form textarea{
+	height: 150px;
+	resize: none;
+}
+
+#footer{
+	position: relative;
+	margin-top: 2400px;
+	padding: 5px;
+	height: 45px;
+	padding-left: 25px;
+}
+#footer p{
+	color: aqua;
+}

@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+body{
+	background-color: #E5B299;
+}
+.header img{
+	height: 150px;
+	width: 150px;
+}
+.header .navbar{
+	float: right;
+	right: 20px;
+	position: relative;
+	top: 20px;
+}
+.header .navbar a{
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+	font-size: 20px;
+}
+.header .navbar a:hover,
+.header .navbar a:active{
+	color: brown;
+	border-bottom: 3px solid brown;
+}
+.icerik{
+	font-size: 25px;
+	position: relative;
+	float: left;
+	left: 200px;
+	top: 150px;
+}
+.icerik p{
+	padding-top: 15px;
+}
+.icerik input{
+	background-color: red;
+	border: 2px solid red;
+	border-radius: 10px;
+	height: 40px;
+	position: relative;
+	margin-top: 20px;
+	color: white;
+	width: 150px;
+}
+.icerik img{
+	width: 500px;
+	height: auto;
+	float: left;
+	position: relative;
+	left: 750px;
+	bottom: 400px;
+}
+.hakkimizda{
+	position: relative;
+	font-size: 20px;
+	top: 350px;
+	float: left;
+}
+.hakkimizda img{
+	position: relative;
+	width: 500px;
+	height: auto;
+	float: left;
+	left: 10px;
+}
+.hakkimizda h1{
+	text-align: center;
+	left: 250px;
+	position: relative;
+	bottom: 500px;
+	bottom: 850px;
+}
+.hakkimizda p{
+	position: relative;
+	font-size: 20px;
+	float: left;
+	left: 580px;
+	bottom: 680px;
+}
+.populer{
+	float: right;
+	position: relative;
+	right: 450px;
+	padding: 20px;
+	top: 100px;
+	text-align: center;
+}
+.populer h1{
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	right: 150px;
+	bottom: 10px;
+}
+.populer img{
+	position: relative;
+	left: 450px;
+}
+.iletisim {
+	position: relative;
+	bottom: 20px;
+	float: left;
+	margin-left: 500px;
+}
+.iletisim h2 {
+	margin-bottom: 4rem;
+	position: relative;
+	top: 350px;
+	color: red;
+	text-align: center;
+	z-index: -1;
+}
+
+.iletisim form{
+	max-width: 30rem;
+	max-height: 5rem;
+	margin: 1rem auto;
+	text-align: center;
+	margin-bottom: 3rem;
+}
+.iletisim form .kutu1{
+	height: auto;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	display: block;
+}
+.iletisim form .kutu1 input,
+.iletisim form textarea{
+	width: 50%;
+	padding: 1.5rem;
+	font-size: 1rem;
+	color: red;
+	background: #E5B299;
+	border-radius: .8rem;
+	margin:.7rem 0;
+	height: 20px;
+	position: relative;
+	top: 350px;
+	border: 1px solid black;
+}
+.iletisim form .kutu1 #telefon{
+	position: relative;
+	left: 5px;
+}
+.iletisim form .kutu1 select{
+	background: #E5B299;
+	top: 350px;
+	position: relative;
+	width: 45%;
+	height: 50px;
+	border-radius: .8rem;
+	color: red;
+	font-size: 1rem;
+	left: 5px;
+}
+.iletisim .btn{
+	position: relative;
+	margin-top: 350px;
+	margin-right: 250px;
+	margin-left: 180px;
+	width: 120px;
+	height: 50px;
+	background-color: #E5B299;
+	font-size: 20px;
+	color: red;
+	border-radius: 25px;
+}
+.iletisim .btn:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+	transition: 0.3s ease;
+	color: #1f242d;
+	border-radius: 50px;
+	z-index: 7;
+}
+.iletisim form .kutu1 input{
+	width: 49%;
+}
+.iletisim form textarea{
+	height: 150px;
+	resize: none;
+}
+
+#footer{
+	position: sticky;
+	margin-top: 2400px;
+	padding: 5px;
+	height: 45px;
+	padding-left: 25px;
+	background-color: black;
+}
+#footer p{
+	color: red;
+}

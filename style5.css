@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+.header .bg-image{
+	position: absolute;
+	background-image: url("img/ev.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 47rem;
+	width: 100%;
+	z-index: -1;
+	opacity: 0.9;
+}
+.header h1{
+	color: #fff;
+	position: relative;
+	float: left;
+	left: 20px;
+	padding: 20px;
+}
+.header .navbar{
+	position: relative;
+	float: right;
+	right: 20px;
+}
+.header .navbar a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 15px;
+	position: relative;
+	top: 20px;
+}
+.header .navbar a:hover{
+	color: cornflowerblue;
+}
+.giris{
+	color: black;
+	position: relative;
+	top: 300px;
+	text-align: center;
+	padding: 10px;
+}
+.giris h1{
+	position: relative;
+	float: right;
+	right: 150px;
+}
+
+.giris p{
+	position: relative;
+	top: 50px;
+	float: left;
+	left: 300px;
+}
+.giris input{
+	position: relative;
+	background-color: transparent;
+	top: 80px;
+	float: left;
+	left: 420px;
+	font-size: 20px;
+	border: 4px solid #105A4E;
+	border-radius: 10px;
+	margin: 10px;
+}
+.giris input:hover{
+	background-color: #105A4E;
+}

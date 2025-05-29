@@ -1,0 +1,262 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+body{
+	background-image: url("img/bg.png");
+}
+.header img{
+	position: relative;
+	float: left;
+	padding-left: 50px;
+}
+.navbar{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 20px;
+}
+.navbar a{
+	text-decoration: none;
+	padding: 20px;
+	color: #fff;
+	margin: 15px;
+	position: relative;
+}
+.navbar a:hover{
+	color: darkgoldenrod;
+}
+.header .btn{
+	font-size: 20px;
+	color: #fff;
+	background-color: transparent;
+	border: 1px solid white;
+	position: relative;
+	float: right;
+	margin-right: 50px;
+	width: 100px;
+	bottom: 10px;
+	height: auto;
+}
+.icerik .tanitim{
+	padding: 100px;
+	position: relative;
+	display: block;
+	top: 100px;
+	font-size: 20px;
+}
+.icerik .tanitim h1,p,#buton{
+	padding: 15px;
+	color: #fff;
+}
+.icerik .tanitim #buton{
+	background-color: darkgoldenrod;
+	border-radius: 15px;
+	float: left;
+	left: 10px;
+	position: relative;
+	z-index: 1;
+}
+.icerik .tanitim p{
+	position: relative;
+	left: 20px;
+}
+.icerik .tanitim span{
+	color: darkgray;
+}
+.icerik .tanitim img{
+	height: auto;
+	width: 550px;
+	float: right;
+	left: 20px;
+	bottom: 350px;
+	position: relative;
+}
+#hakkimizda{
+	position: relative;
+	background-image: url("img/coffe2.webp");
+	background-size: cover;
+	background-position: center;
+	height: 40rem;
+	width: 100%;
+	z-index: -1;
+	opacity: 0.9;
+	top: 350px;
+	padding: 20px;
+}
+#hakkimizda h1{
+	position: relative;
+	float: left;
+	left: 700px;
+	color: black;
+}
+#hakkimizda p{
+	position: relative;
+	top: 150px;
+	float: left;
+	left: 700px;
+	font-size: 20px;
+}
+#hakkimizda span{
+	color: gold;
+}
+#ekip{
+	position: relative;
+	top: 450px;
+	width: 350px;
+	height: 450px;
+}
+#ekip h1{
+	text-align: center;
+	bottom: 50px;
+	position: relative;
+	color: gold;
+	left: 600px;
+}
+#ekip #ayse {
+	float: left;
+	display: block;
+	left: 50px;
+	position: relative;
+}
+#ekip #ayse img{
+	position: relative;
+	left: 60px;
+	width: 150px;
+	height: 250px;
+}
+#ekip #mehmet{
+	float: left;
+	left: 100px;
+	position: relative;
+	display: block;
+}
+#ekip #mehmet img{
+	width: 150px;
+	height: 250px;
+	position: relative;
+	left: 600px;
+	bottom: 380px;
+}
+#ekip #mehmet p{
+	position: relative;
+	left: 550px;
+	bottom: 380px;
+}
+#ekip #dilara{
+	float: right;
+	right: 50px;
+	position: relative;
+	display: block;
+}
+#ekip #dilara img{
+	width: 180px;
+	height: 250px;
+	float: left;
+	position: relative;
+	left: 1400px;
+	bottom: 780px;
+}
+#ekip #dilara div{
+	position: relative;
+	left: 1200px;
+	bottom: 520px;
+	width: 450px;
+}
+.iletisim {
+	position: relative;
+	bottom: 250px;
+	float: left;
+	margin-left: 360px;
+}
+.iletisim h2 {
+	margin-bottom: 4rem;
+	position: relative;
+	top: 300px;
+	color: gold;
+	text-align: center;
+	z-index: -1;
+}
+
+.iletisim form{
+	max-width: 50rem;
+	max-height: 10rem;
+	margin: 1rem auto;
+	text-align: center;
+	margin-bottom: 3rem;
+}
+.iletisim form .kutu1{
+	height: auto;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	display: block;
+}
+.iletisim form .kutu1 input,
+.iletisim form textarea{
+	width: 50%;
+	padding: 1.5rem;
+	font-size: 1.6rem;
+	color: gold;
+	background: #393E46;
+	border-radius: .8rem;
+	margin:.7rem 0;
+	height: 50px;
+	position: relative;
+	top: 250px;
+}
+.iletisim form .kutu1 #telefon{
+	position: relative;
+	right: 40px;
+}
+.iletisim form .kutu1 select{
+	background: #393E46;
+	top: 250px;
+	position: relative;
+	width: 40%;
+	height: 50px;
+	border-radius: .8rem;
+	color: gold;
+	font-size: 1.6rem;
+}
+.iletisim .btn{
+	position: relative;
+	margin-top: 250px;
+	margin-left: 250px;
+	margin-right: 250px;
+	width: 120px;
+	height: 50px;
+	background-color: gold;
+	font-size: 20px;
+	color: black;
+	border-radius: 25px;
+}
+.iletisim .btn:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+	transition: 0.3s ease;
+	color: #1f242d;
+	border-radius: 50px;
+	z-index: 7;
+}
+.iletisim form .kutu1 input{
+	width: 49%;
+}
+.iletisim form textarea{
+	height: 150px;
+	resize: none;
+}
+
+#footer{
+	position: sticky;
+	margin-top: 1150px;
+	padding: 5px;
+	height: 50px;
+	padding-left: 25px;
+	background-color: black;
+}
+#footer p{
+	color: gold;
+}

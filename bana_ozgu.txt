@@ -1,0 +1,42 @@
+-->BANA ÖZGÜN OLAN BÖLÜMLER
+
+	İNDEX SAYFASI
+1.İndex sayfasında boxicons kütüphanesini kullandım.
+2.İndex sayfasındaki iletişim bölümünde form elemanlarını kullandım.
+
+	İNDEX SAYFASI CSS KISMI (style.css)
+3.Kaydırma özelliği olan smooth ifadesini kullandım.
+4.Görünüm ayarı olan flex özelliğini kullandım.
+5.Hatlar arası boşluğu ayarlamak için space-between özelliğini kullandım.
+6.a etiketi için active özelliğini kullandım.
+7.p etiketinin içindeki span için text-shadow özelliğini kullandım.
+8.Navbar'ın içindeki a etiketi için transition özelliğini kullandım.
+9.Bilgilerimin içindeki a etiketi için hizalama özelliği taşıyan justify-content özelliğini kullandım.
+10.Proje İçerik kısmı için kaydırma çubuğunu engelledim.(owerflow:hidden)
+11.Proje İçeriğin içindeki image için transform özelliğini ve geçiş efektini kullandım (transition).
+12.İletişimin içindeki buton için transition ve transform özelliklerini kullandım.
+
+	 PROJE1 SAYFASI
+13.Bir önceki sayfaya dönmek için geri dönüş butonu ekledim.
+14.İletişim kısmında form elemanlarını kullandım.
+15.Sayfaya Ekip bölümü ekledim.
+
+	 PROJE2 SAYFASI
+16.Nav kısmında boxicons kütüphanesini kullandım.
+
+	 PROJE3 SAYFASI
+17.Hizmetler kısmı ekledim
+18.İletişim kısmında form elemanlarını kullandım.
+19.İletişim kısmındaki textarea için boyutlandırma özelliğini kapattım (resize:none)
+
+	 PROJE4 SAYFASI
+20.Mimar Sitesi için kapak tasarladım ve bu sayfada buton kullandım.
+
+	 PROJE5 SAYFASI
+21.Bu sayfaya Popüler Olanlar kısmı ekledim.
+22.Bu sayfada İletişim Kısmında form elemanları kullandım.
+
+	PROJE5 SAYFASI CSS KISMI (style6.css)
+23.Navbar'ın içindeki a etiketi için hover ve active özelliğini kullandım.
+
+NOT: Bütün Sayfalara Geri dönüş butonu ve index,proje1,proje3,proje5 sayfalarına form etiketi ekledim.
