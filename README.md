@@ -1,2 +1,2 @@
 # portfolio
-Kendi Porfoliom
+HTML ve CSS kullanıldı.
